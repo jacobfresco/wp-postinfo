@@ -29,7 +29,7 @@ This text contains [wordcount] words and [charcount] characters
 
 ### Custom field
 
-Starting with version 0.2, you can add a custom field to a post or page to exclude that post/page from converting the shortcodes to numbers. Please note that those posts or pages will show the actual shortcodesd
+Starting with version 0.2, you can add a custom field to a post or page to exclude that post/page from converting the shortcodes to numbers. Please note that those posts or pages will show the actual shortcodes
 
 ```
 no_post_count
