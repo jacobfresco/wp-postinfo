@@ -1,28 +1,26 @@
 <?php
 
-	/*
-		Plugin Name: WP-PostInfo
-		Plugin URI: https://www.jacobfresco.nl/wordpress/wp-postinfo
-		Description: Show the word- and character count of a post on Wordpress
-		Version: 0.2
-		Author: Jacob Fresco
-		Author URI: http://www.jacobfresco.nl
+	/**
 
-		Copyright 2011  Jacob Fresco
+	* JewishDate 0.7
+	*
+	* @package           WP-PostInfo
+	* @author            Jacob Fresco
+	* @copyright         2019 Jacob Fresco
+	* @license           GPL-3.0-or-later
+	*
+	* @wordpress-plugin
+	* Plugin Name:       WP-PostInfo
+	* Plugin URI:        https://github.com/jacobfresco/wp-postinfo
+	* Description:       Show the word- and character count of a post on Wordpress
+	* Version:           0.2
+	* Requires PHP:      5.3
+	* Author:            Jacob Fresco
+	* Author URI:        https://jacobfresco.nl
+	* License:           GPL v3 or later
+	* License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
 
-		This program is free software; you can redistribute it and/or modify
-		it under the terms of the GNU General Public License as published by
-		the Free Software Foundation; either version 2 of the License, or
-		(at your option) any later version.
 
-		This program is distributed in the hope that it will be useful,
-		but WITHOUT ANY WARRANTY; without even the implied warranty of
-		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-		GNU General Public License for more details.
-
-		You should have received a copy of the GNU General Public License
-		along with this program; if not, write to the Free Software
-		Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	*/
 
 	date_default_timezone_set(get_option('timezone_string'));
